@@ -1,0 +1,32 @@
+import { Navigate, Outlet, useLocation } from 'react-router-dom';
+import { useAuth } from '../../features/auth/useAuth';
+import { RouteLoadingFallback } from '../feedback/RouteLoadingFallback';
+
+export function GuestRoute() {
+  const { isAuthenticated, isLoading } = useAuth();
+
+  if (isLoading) {
+    return <RouteLoadingFallback label="Checking session" />;
+  }
+
+  if (isAuthenticated) {
+    return <Navigate to="/dashboard" replace />;
+  }
+
+  return <Outlet />;
+}
+
+export function ProtectedRoute() {
+  const { isAuthenticated, isLoading } = useAuth();
+  const location = useLocation();
+
+  if (isLoading) {
+    return <RouteLoadingFallback label="Checking session" />;
+  }
+
+  if (!isAuthenticated) {
+    return <Navigate to="/login" replace state={{ from: location.pathname }} />;
+  }
+
+  return <Outlet />;
+}

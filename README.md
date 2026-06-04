@@ -2,7 +2,7 @@
 
 React + TypeScript frontend-only client for the TaskFlow API.
 
-This repository demonstrates a Strong Junior frontend implementation for a practical task and project management workflow:
+This repository demonstrates a frontend portfolio implementation for a practical task and project management workflow:
 
 `auth → projects → tasks → comments → dashboard → protected routes → status workflow`
 
@@ -25,7 +25,7 @@ The TaskFlow API backend is a separate project. This repo contains only the fron
 
 | Mode | When to use | Backend required |
 |---|---|---|
-| Demo / mock | Portfolio review and local UI testing | No — MSW with `VITE_USE_MOCK_API=true` |
+| Demo / mock | Reviewer validation and local UI testing | No — MSW with `VITE_USE_MOCK_API=true` |
 | Live API | Full-stack integration with TaskFlow API | Yes — API must run separately |
 
 ## Demo credentials
@@ -35,7 +35,7 @@ The TaskFlow API backend is a separate project. This repo contains only the fron
 | Primary demo user | `taskflow.user@demo.dev` | `Password123!` |
 | Second demo user (ownership examples) | `taskflow.other@demo.dev` | `Password123!` |
 
-## Quick start (demo mode)
+## Local demo
 
 ```bash
 npm ci
@@ -77,7 +77,7 @@ npm run test:e2e
 bash -n scripts/*.sh
 ```
 
-CI workflow is configured to run `npm ci`, typecheck, lint, tests, and build on GitHub Actions. It does not require the live backend. Confirm green status on your repository before claiming CI is passing.
+GitHub Actions CI is configured and passing on main for install, typecheck, lint, Vitest, and build. Live API checks are manual and do not block CI.
 
 ## Scripts
 
@@ -130,6 +130,6 @@ See `docs/KNOWN_LIMITATIONS.md`. Summary:
 - Enterprise access control
 - Production security hardening
 
-## Portfolio scope
+## Project scope
 
-This is a Strong Junior frontend portfolio project focused on clean UI implementation, typed API integration, demo/live runtime strategy, deterministic tests, and public GitHub readiness.
+This is a React + TypeScript frontend portfolio project focused on clean UI implementation, typed API integration, demo/live runtime strategy, deterministic tests, and reviewer-friendly documentation.

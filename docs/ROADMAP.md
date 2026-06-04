@@ -2,7 +2,7 @@
 
 ## v0.1.0 — Frontend project foundation
 
-Status: Planned for public history.
+Status: Published in public Git history.
 
 Scope:
 - Vite + React + TypeScript foundation;
@@ -13,7 +13,7 @@ Scope:
 
 ## v0.2.0 — Routing and layout
 
-Status: Planned for public history.
+Status: Published in public Git history.
 
 Scope:
 - route map;
@@ -24,7 +24,7 @@ Scope:
 
 ## v0.3.0 — API client and environment configuration
 
-Status: Planned for public history.
+Status: Published in public Git history.
 
 Scope:
 - typed TaskFlow API client;
@@ -35,7 +35,7 @@ Scope:
 
 ## v0.4.0 — Authentication and route guards
 
-Status: Planned for public history.
+Status: Published in public Git history.
 
 Scope:
 - register;
@@ -47,7 +47,7 @@ Scope:
 
 ## v0.5.0 — Projects feature pages
 
-Status: Planned for public history.
+Status: Published in public Git history.
 
 Scope:
 - project list;
@@ -57,7 +57,7 @@ Scope:
 
 ## v0.6.0 — Tasks and comments feature pages
 
-Status: Planned for public history.
+Status: Published in public Git history.
 
 Scope:
 - task list and task details;
@@ -68,7 +68,7 @@ Scope:
 
 ## v0.7.0 — Dashboard and UI states
 
-Status: Planned for public history.
+Status: Published in public Git history.
 
 Scope:
 - dashboard summary;
@@ -78,7 +78,7 @@ Scope:
 
 ## v0.8.0 — Automated tests
 
-Status: Planned for public history.
+Status: Published in public Git history.
 
 Scope:
 - unit tests;
@@ -89,7 +89,7 @@ Scope:
 
 ## v0.9.0 — CI, scripts, demo/live runtime docs
 
-Status: Planned for public history.
+Status: Published in public Git history.
 
 Scope:
 - GitHub Actions CI;
@@ -100,7 +100,7 @@ Scope:
 
 ## v1.0.0 — Public portfolio release
 
-Status: Final public release after verification and cleanup.
+Status: Public portfolio release.
 
 Scope:
 - README;

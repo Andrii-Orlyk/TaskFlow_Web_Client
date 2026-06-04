@@ -4,7 +4,7 @@
 
 TaskFlow Web Client is a frontend-only project. Demo mode lets a reviewer run the application without starting the TaskFlow API backend.
 
-Demo mode must behave like a realistic frontend review environment, not like a fake production backend. It is designed for UI review, automated frontend tests, and portfolio demonstration.
+Demo mode must behave like a realistic frontend review environment, not like a fake production backend. It is designed for UI review, automated frontend tests, and local demonstration.
 
 ## Enable demo mode
 
@@ -81,4 +81,4 @@ npm run dev:live
 
 ## Limitations
 
-Demo mode does not replace final live integration testing. For a complete fullstack portfolio demo, run the client against the real TaskFlow API and verify auth, projects, tasks, comments, and dashboard flows.
+Demo mode does not replace final live integration testing. For a full-stack integration demo, run the client against the real TaskFlow API and verify auth, projects, tasks, comments, and dashboard flows.

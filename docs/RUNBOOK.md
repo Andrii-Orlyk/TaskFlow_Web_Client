@@ -49,6 +49,8 @@ npm run build
 bash -n scripts/*.sh
 ```
 
+GitHub Actions CI is passing on main for the same deterministic gates: install, typecheck, lint, Vitest, and build. Live API and Playwright checks below are optional and do not block CI.
+
 Optional:
 
 ```bash

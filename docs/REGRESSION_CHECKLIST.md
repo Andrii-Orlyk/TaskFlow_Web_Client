@@ -34,7 +34,7 @@ This checklist separates deterministic automated checks, demo-mode review, and l
 
 ## Live API validation
 
-Before final portfolio review, run TaskFlow API separately and verify:
+Before final reviewer validation, run TaskFlow API separately and verify:
 
 - register/login works against live API;
 - current user endpoint works;

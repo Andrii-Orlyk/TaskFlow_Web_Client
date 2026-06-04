@@ -7,4 +7,4 @@
 - Backend remains responsible for authentication, ownership, persistence, and business rule enforcement.
 - Customer/team collaboration beyond the existing TaskFlow API scope is not included.
 - Calendar integration, notifications, and production deployment are outside current scope.
-- The UI targets portfolio-level Strong Junior frontend proof, not a full enterprise project management suite.
+- The UI focuses on frontend portfolio proof for task and project workflows, not a full enterprise project management suite.

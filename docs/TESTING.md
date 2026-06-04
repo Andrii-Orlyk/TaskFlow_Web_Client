@@ -59,6 +59,6 @@ Manual scenarios are listed in `docs/MANUAL_TEST_SCENARIOS.md`.
 
 ## CI
 
-GitHub Actions runs install, typecheck, lint, Vitest, and build. It does not require the live backend.
+GitHub Actions CI is passing on main for install, typecheck, lint, Vitest, and build. It does not require the live backend.
 
-Playwright E2E is intended for local verification or a future CI step once browser dependencies are added to the workflow. Do not claim CI is green until the workflow passes on your repository.
+Playwright E2E (`npm run test:e2e`) and live API smoke (`npm run check:live-api`) are local or manual checks and are not part of the CI workflow.
